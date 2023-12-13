@@ -1,3 +1,5 @@
+<h1>NOT YET READY. TO BE CONTINUED</h1>
+
 <h1>Database Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
 
 The scope of this project is to use all the SQL knowledge gained throught the Software Testing course and apply them in practice.
@@ -22,5 +24,15 @@ The tables are connected in the following way:
   ...........
   <li> **nume tabela n**  is connected with **nume tabela n+1** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
 </ul>
+
+<li>Database Queries</li>
+
+<ol type="I">
+  <li>DDL (Data Definition Language)</li>
+  <li>DML (Data Manipulation Language)</li>
+  <li>DQL (Data Query Language)</li>
+</ol>
+
+
 
 </ol>
