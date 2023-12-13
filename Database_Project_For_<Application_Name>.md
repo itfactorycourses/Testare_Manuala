@@ -11,8 +11,8 @@ Tools used: MySQL Workbench
 Database description: **Inserati aici o scurta descriere a bazei de date care sa contina scopul ei, informatiile generale pe care le veti salva si orice alte informatii considerati ca sunt relevante pentru o descriere**
 
 <ol>
-<li>Database Schema </li><br>
-
+<li>Database Schema </li>
+<br>
 You can find below the database schema that was generated through Reverse Engineer and which contains all the tables and the relationships between them.
 
 The tables are connected in the following way:
