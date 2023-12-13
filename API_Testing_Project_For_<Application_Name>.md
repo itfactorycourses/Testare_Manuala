@@ -1,4 +1,4 @@
-<h1>Testing Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+<h1>API Testing Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
 
 The scope of this project is to use all  API knowledge gained throught the Software Testing course and aplly them in practice, using a live application.
 
