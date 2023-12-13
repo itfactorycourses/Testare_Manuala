@@ -1,6 +1,6 @@
 <h1>API Testing Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
 
-The scope of this project is to use all  API knowledge gained throught the Software Testing course and aplly them in practice, using a live application.
+The scope of this project is to use all  API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
 
 Application under test: **Inserati aici numele aplicatiei pe care o testati**
 
@@ -14,8 +14,8 @@ Collection link: **Inserati aici linkul catre colectia de API**
 <li>**Nume Request 1**</li>
 
 HTTP method for request: **Inserati aici metoda HTTP a requestului**
-
-Requestu description: **Inserati o scurta descriere a requestului, conform documentatiei de API**
+Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**
+Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**
 Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**
 
 Below you can find a picture of the API request from Postman:
@@ -30,8 +30,8 @@ JavaScript Tests:
 <li>**Nume Request 2**</li>
 
 HTTP method for request: **Inserati aici metoda HTTP a requestului**
-
-Requestu description: **Inserati o scurta descriere a requestului, conform documentatiei de API**
+Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**
+Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**
 Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**
 
 Below you can find a picture of the API request from Postman:
@@ -42,7 +42,23 @@ JavaScript Tests:
 
 **Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**
 
-<i>Repetati pasii de mai sus pentru toate requesturile pe care le-ati facut. </i>
+.............
+
+<li>**Nume Request n**</li>
+
+HTTP method for request: **Inserati aici metoda HTTP a requestului**
+Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**
+Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**
+Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**
+
+Below you can find a picture of the API request from Postman:
+
+**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**
+
+JavaScript Tests:
+
+**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**
+
 </ol>
 
 <h2>Execution report for the created API collection </h2>
