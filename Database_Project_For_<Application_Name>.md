@@ -66,20 +66,20 @@ After the testing process, I deleted the data that was no longer relevant in ord
 In order to simulate various scenarios that might happen in real life I created the following queries that would cover multiple potential real-life situations:
 
 **Inserati aici toate instructiunile de SELECT pe care le-ati scris folosind filtrarile necesare astfel incat sa extrageti doar datele de care aveti nevoie**
-**Incercati sa acoperiti urmatoarele:**
-**- where**
-**- AND**
-**- OR**
-**- NOT**
-**- like**
-**- inner join**
-**- left join**
-**- OPTIONAL: right join**
-**- OPTIONAL: cross join**
-**- functii agregate**
-**- group by**
-**- having**
-**- OPTIONAL DAR RECOMANDAT: Subqueries - nu au fost in scopul cursului. Puteti sa consultati tutorialul [asta](https://www.techonthenet.com/mysql/subqueries.php) si daca nu intelegeti ceva contactati fie trainerul, fie coordonatorul de grupa**
+**Incercati sa acoperiti urmatoarele:**<br>
+**- where**<br>
+**- AND**<br>
+**- OR**<br>
+**- NOT**<br>
+**- like**<br>
+**- inner join**<br>
+**- left join**<br>
+**- OPTIONAL: right join**<br>
+**- OPTIONAL: cross join**<br>
+**- functii agregate**<br>
+**- group by**<br>
+**- having**<br>
+**- OPTIONAL DAR RECOMANDAT: Subqueries - nu au fost in scopul cursului. Puteti sa consultati tutorialul [asta](https://www.techonthenet.com/mysql/subqueries.php) si daca nu intelegeti ceva contactati fie trainerul, fie coordonatorul de grupa**<br>
 
 </ol>
 
