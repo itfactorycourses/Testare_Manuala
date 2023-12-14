@@ -71,6 +71,7 @@ In order to simulate various scenarios that might happen in real life I created 
 **- AND**
 **- OR**
 **- NOT**
+**- like**
 **- inner join**
 **- left join**
 **- OPTIONAL: right join**
