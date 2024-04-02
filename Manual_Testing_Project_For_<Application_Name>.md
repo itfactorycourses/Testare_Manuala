@@ -114,8 +114,3 @@ The final report shows that a number **(inserati numarul de teste)** tests have 
 A number of **(inserati numarul de bug-uri)** total bugs were found, from which the priority is: **(inserati numarul de bug-uri)** are high and **(inserati numarul de bug-uri)** are medium.
 
 **(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)**
-
-<img width="341" alt="Screenshot 2024-04-02 at 21 33 01" src="https://github.com/itfactorycourses/Testare_Manuala/assets/143410937/00ce4405-db52-43e2-bc0d-cc7df8d0e8d5">
-
-
-
