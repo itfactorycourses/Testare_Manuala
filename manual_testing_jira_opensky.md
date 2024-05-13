@@ -29,28 +29,56 @@ The Test Plan is designed to describe all details of testing for the Login modul
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the projects risks associated with the plan. 
 
-The test plan that was created for this project can be found [here]
+The test plan that was created for this project can be found [here](https://github.com/itfactorycourses/Testare_Manuala/blob/main/Plan%20de%20Testare%20-%20de%20incarcat%20pe%20git%20(modificat%20conform%20proiectului%20vostru).pdf)
 
 #### 1.1.1. Roles asigned to the project and persons allocated
 
-Project manager - 
-Product owner
-Software developer
-QA Engineer
+<table>
+<tr><td>Project manager </td><td>Ion Popescu</td> </tr>
+<tr><td>Product owner</td><td>Maria Ionescu</td></tr>
+<tr><td>Software developer</td><td>Mihai Andrescu</td></tr>
+<tr><td>QA Engineer</td><td>Catalin Radu</td></tr>
+</table>
 
 #### 1.1.2 Entry criteria defined
-(enumerati aici toate criteriile de intrare pe care le-ati definit pentru proiectul vostru)
+
+- The business requirements must be finalizate
+- The roles must have been allocated
+- The test plan must be finished and sent to the stakeholders
+- The entry criteria and exit criteria must be defined
+- The project risks must have been identified and mitigated
+
 
 #### 1.1.3 Exit criteria defined
-(enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)
+
+- 95% of the test can be executed
+- not finding bugs of major severity in a specific period of time
+- the existing bugs that were reported must have been fixed and followed by retesting and regression testing
+- the deadline has been reached
+
 
 #### 1.1.4 Test scope
 
 ##### Tests in scope:
-(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
+
+In order to fulfill the testing objectives we are only going to focus on the Login Module (and Register Module) which has been placed in the scope of testing and has been targeted for improvement over the next two months.
+
+From the point of view of the testing techniques we are going to use mostly blackbox testing with the following test design techniques: 
+
+- equivalence partitioning
+- boundary value analysis
+- decision table
+
+From a testing type perspective we are going to use  non-functional testing  where we are going to cover only usability testing and compatibility testing.
+Also, positive testing and negative testing are to be done, and (according to the needs) retesting and regression testing will be done when defects are going to be fixed or when modifications of any type are going to be brought to the code.
 
 ##### Tests not in scope:
-(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
+
+We are not going to cover during the testing process any techniques related to whitebox testing. 
+
+Also, performance and security testing will not be performed during this session of testing. 
+
+From the perspective of the modules covered, any other functionality that is located outside of the login or register module are not to be tested.
 
 #### 1.1.5 Risks detected
 
@@ -67,11 +95,13 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 (inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)
 
 ### 1.3 Test Analysis
-The testing process will be executed based on the application requirements. (The requirements analysis has been done in order to implement the early testing test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review).
+The testing process will be executed based on the application requirements.
 
-The following test conditions were found:
+You can find below an example of ten test conditions (out of a total of 15) that were created in the scope of this project:
 
-(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)
+![image](https://github.com/itfactorycourses/Testare_Manuala/assets/143410937/492a20fa-d87a-4f1e-a8af-7074e9a4dd1c)
+
+You can find the full set of test conditions together with all the test cases in the following paragraph.
 
 ### 1.4 Test Design
 Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here (inserati linkul catre fisierul cu testele, in format pdf, word sau csv)
