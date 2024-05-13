@@ -1,12 +1,21 @@
-Testing Project for **Inserati aici numele aplicatiei pe care o testati**
+# Testing Project for Opensky
+
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
-Application under test: Inserati aici numele aplicatiei pe care o testati
+**Application under test:** opensky.com
 
-Tools used: Jira, Zephyr Squad.
+**Tools used**: Jira, Zephyr Squad.
 
-Functional specifications:
-The below story (daca aveti mai multe scrieti stories) was created in Jira and describes the functional specifications of the "nume_modul" module, for which the final project is performed upon.
+## Functional specifications:
+The below stories were created in Jira and describe the functional specifications of the "Sign In" module, for which the final project is performed upon.
+
+[Uploading Jira_Stories.doc…]()
+
+
+You can find a example of one of the stories that were created in the picture below:
+
+![image](https://github.com/itfactorycourses/Testare_Manuala/assets/143410937/bb61d16a-9add-400e-bc72-7025f7387228)
+
 
 inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier
 
