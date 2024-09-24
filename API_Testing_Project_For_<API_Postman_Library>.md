@@ -1,135 +1,94 @@
-<h1>API Testing Project for **API- Postman Library ![image](https://github.com/user-attachments/assets/65355f68-4fec-4b80-b177-02fca86d8983)
-**</h1>
+<h1>API Testing Project for ** API- Postman Library **</h1>
 
 The scope of this project is to use all  API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
 
-Application under test: **Inserati aici numele aplicatiei pe care o testati**
+Application under test: **API- Postman Library**
 
-Tools used: Postman, Newman
+Tools used: Postman
 
-Collection link: **32693143-fea55150-4a53-46e0-a235-f9bb9f9ef730**
+Collection link: **Marius C- Postman Library API v2**
 
 <h2>Tests performed</h2>
+HTTP methods supported by this API are GET, POST, PUT, PATCH, and DELETE. In this section, you can explore and perform tests on various types of operations supported by Postman Library API. Some examples include:
 
+GET Requests: Retrieve information about books, by genres, by ID, etc.
+POST Requests: Add new books, etc.
+PUT and PATCH Requests: Update existing books, checking books, etc.
+DELETE Requests: Remove books, etc.
 <ol>
 <li>**GET BOOKS**</li>
 
 HTTP method for request: **GET**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+Request description: **GET FICTION BOOKS**<br>
+Test types / techniques used: **Functional testing, performance testing, positive testing**<br>
+Response status code: **Result 200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![get books](https://github.com/user-attachments/assets/0f9c856a-be8c-4495-a5a5-9d314ac246e7)**<br>
+**![check out a book test](https://github.com/user-attachments/assets/01b32ab1-8d65-4bbf-b339-454ca02fe58e)**<br>
 
 JavaScript Tests:
 
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
-
-<li>**GET FICTION BOOKS**</li>
-
-HTTP method for request: **GET**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
-
-Below you can find a picture of the API request from Postman:<br>
-
-**![get fiction books](https://github.com/user-attachments/assets/3c44447b-712f-4611-a894-c30b930301a5)**<br>
-
-JavaScript Tests:
-
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
-
-.............
-
-<li>**GET BOOK BY ID**</li>
-
-HTTP method for request: **GET**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
-
-Below you can find a picture of the API request from Postman:<br>
-
-**![get book by id](https://github.com/user-attachments/assets/4e132843-914b-49a4-90d0-2ddaadcb004a)**<br>
-
-JavaScript Tests:
-
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+**![get fiction books js 1](https://github.com/user-attachments/assets/e05dd290-7118-4630-b64c-297917ade482)
+![get fiction books js 2](https://github.com/user-attachments/assets/9b05e62c-7aa3-43b4-bdd0-db6f294c1b30)
+![get fiction books js 3](https://github.com/user-attachments/assets/afd1e6ed-fd6c-46e5-a121-b170e540326d)
+![get fiction books js 4](https://github.com/user-attachments/assets/806f65d9-644c-4735-9888-a1daf3dd61f4)
+![get fiction books results](https://github.com/user-attachments/assets/9c82bbe9-5b72-4e41-b388-23e6b3dd2528)**<br>
 
 <li>**ADD BOOK**</li>
 
 HTTP method for request: **POST**<br>
 Request description: **Add book To kill a mocking bird**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+Test types / techniques used: **Functional testing, performance testing, positive testing**<br>
+Response status code: **Result 201 Created**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![add book](https://github.com/user-attachments/assets/a600f261-90c1-4ece-a5fa-13e6780477f8)
-![add book body](https://github.com/user-attachments/assets/b1ef5a32-831c-4582-84b3-f17c22f0b5d0)
-![add book auth](https://github.com/user-attachments/assets/8e89b3a5-db2a-486b-adbe-a17e437ad131)
-**<br>
+**![add a book test](https://github.com/user-attachments/assets/f32a75be-3fed-4622-8cf4-b3a5b439e20a)**<br>
 
 JavaScript Tests:
 
-**![add a book test](https://github.com/user-attachments/assets/ef134f06-f688-4f75-8a78-672dd5924efd)**<br>
+**![add a book js1](https://github.com/user-attachments/assets/4ebd6c8a-4183-43f0-be2b-f6e1e062037c)
+![add a book js2](https://github.com/user-attachments/assets/c5822bb6-e920-437d-b7d1-882254fd59df)
+![add a book js3](https://github.com/user-attachments/assets/9bd9d460-2303-48f9-b823-5826f9da1137)
+![add a book js4](https://github.com/user-attachments/assets/774ed048-851b-487a-82a8-9eb02368989b)
+![add a book test result](https://github.com/user-attachments/assets/04a7998e-1176-4316-89f5-6920880bf161)**<br>
 
 <li>**CHECK OUT A BOOK**</li>
 
 HTTP method for request: **PATCH**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+Request description: **CHECK OUT A BOOK**<br>
+Test types / techniques used: **Functional testing, performance testing, positive testing**<br>
+Response status code: **Result 200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![check out a book](https://github.com/user-attachments/assets/34e2a44e-f3e7-42d6-ae3f-612b1d561e4d)
-![check out a book params](https://github.com/user-attachments/assets/f0da7bc9-5604-4472-bf22-67beab88d8f7)
-![check out body](https://github.com/user-attachments/assets/3aa67f90-64e5-4655-8806-e5f4794bfb6c)
-**<br>
+**![check out a book test](https://github.com/user-attachments/assets/8dcb0194-47ab-4c33-89b6-7a3e1aeb8d9f)**<br>
 
 JavaScript Tests:
 
-**![check out a book test](https://github.com/user-attachments/assets/4d8b6afc-cb3e-4475-afcf-1abc420ffbcb)
-**<br>
+**![check out a book 1](https://github.com/user-attachments/assets/51763c6f-4da6-466d-8db5-3f4ca423f11e)
+![check out a book 2](https://github.com/user-attachments/assets/f3e3fab7-f0ea-4471-8aac-04e478f99307)
+![check out a book 3](https://github.com/user-attachments/assets/96873a01-fcc6-4a42-b657-6228548f4362)
+![check out a book 4](https://github.com/user-attachments/assets/0bb96c57-85c2-4da4-b219-942c831ffe4b)
+![check out a book test result](https://github.com/user-attachments/assets/ed7401fd-f995-4ec8-bcbd-eb6d3438f680)**<br>
 
 <li>**DELETE A BOOK**</li>
 
-HTTP method for request: **DEL**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
+HTTP method for request: **DELETE**<br>
+Request description: **Delete a non-existing book from the library**<br>
+Test types / techniques used: **Functional testing, performance testing, negative testing**<br>
+Response status code: **Result 404 Not Found**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![delete a book](https://github.com/user-attachments/assets/e085e1c2-5f1d-48c9-b8f7-82662512b5da)
-**<br>
+**![delete a book](https://github.com/user-attachments/assets/f765cbb9-5038-46ec-b62d-2094919c1897)**<br>
 
 JavaScript Tests:
 
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
+**![delete a book test js](https://github.com/user-attachments/assets/05893aa4-842c-4155-81dd-b4713e60da0f)
+![delete a book test result](https://github.com/user-attachments/assets/107ebf80-458d-42c9-86be-0b8add9afb97)**<br>
 
-<li>**SKILL CHECK**</li>
-
-HTTP method for request: **POST**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
-
-Below you can find a picture of the API request from Postman:<br>
-
-**![skills check params](https://github.com/user-attachments/assets/4daafe1c-6900-4525-9a95-9d986e6b96ad)
-![skills check auth](https://github.com/user-attachments/assets/264fd9ac-e546-4be5-bf3f-140461cb238e)
-![skills check body](https://github.com/user-attachments/assets/f9a8b931-6a4b-4d30-98d9-8d648cf5cc6b)
-**<br>
-
-JavaScript Tests:
-
-**![skill check test](https://github.com/user-attachments/assets/b3143d84-4fd3-4999-a8fb-f23883327812)
-**<br>
 
 </ol>
 
@@ -137,23 +96,25 @@ JavaScript Tests:
 
 Below you can find the execution report that was generated through the Postman collection runner. <br>
 
-**![Test collection](https://github.com/user-attachments/assets/546817ab-27cf-4323-87b3-d01511314b78)
-**<br>
-
-The collection was also run through newman directly from the terminal, and the results can be found below:<br>
-
-**Inserati aici o poza cu raportul de executie din Newman**<br>
+**![Collection Runner](https://github.com/user-attachments/assets/16273949-139b-4dea-98d6-9dbc3eb4e351)
+![get fiction books results](https://github.com/user-attachments/assets/84db6ad7-4f29-4599-8287-ec5cef7fae89)
+![add a book test result](https://github.com/user-attachments/assets/077fa512-eb79-4c03-8854-6d811935d70b)
+![check out a book test result](https://github.com/user-attachments/assets/a3a6ee0e-3878-45dd-b14f-b70db074deb6)
+![delete a book test result](https://github.com/user-attachments/assets/2ecdc7dd-83a0-4757-b0b8-7a3a76f86e9a)**<br>
 
 <h2>Defects found</h2>
 
-The following issues were identified while running the postman tests:<br>
-
-****Inserati aici fie un fisier pdf care sa contina raportarea tuturor bug-urilor, fie le descrieti direct in git
-Bug-urile trebuie sa contina titlu, preconditii, pasi de executie, rezultate asteptate si rezultate actuale.
-Optional, bug-urile pot fi raportate in jira, si apoi puteti pune poze direct din jira**
+No issues were identified while running the postman tests.<br>
 
 <h2>Conclusions</h2>
 
-**Inserati aici concluziile pe care le-ati obtinut in urma executarii testelor  si introduceti informatii cum ar fi cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc**
+**Test Coverage: A comprehensive set of 15 API tests was created, covering diverse functionalities in the Postman Library API. Tests included various HTTP methods (GET, POST, PATCH, DELETE) for thorough coverage.
 
+Test Execution: Successful execution of the entire collection using Postman's runner. Detailed execution reports were generated, providing insights into each test case's performance and status.
+
+Functionalities Covered: Extensive testing of library books, item management, books adding and retrieval, and checking out books. A variety of scenarios, including positive, negative, and performance testing, were explored.
+
+Issues Identified: No defects were discovered. Addressing eventual issues is crucial before considering a production release to ensure a stable and reliable API.
+
+Lessons Learned: Documentation Impact: Clear documentation on creating access tokens was valuable for establishing a robust testing environment. Collaboration Significance: Continuous collaboration with the development team is vital to align testing efforts with ongoing API changes, ensuring the testing process remains effective and relevant.**
 
