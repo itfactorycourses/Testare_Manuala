@@ -1,4 +1,5 @@
-<h1>API Testing Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+<h1>API Testing Project for **API- Postman Library ![image](https://github.com/user-attachments/assets/65355f68-4fec-4b80-b177-02fca86d8983)
+**</h1>
 
 The scope of this project is to use all  API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
 
