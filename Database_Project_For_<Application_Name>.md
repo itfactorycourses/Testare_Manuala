@@ -56,12 +56,13 @@ The tables are connected in the following way:
 
   **Inserati aici toate instructiunile de UPDATE pe care le-ati scris folosind filtrarile necesare astfel incat sa actualizati doar datele de care aveti nevoie**
 
-
-  <li>DQL (Data Query Language)</li>
-
 After the testing process, I deleted the data that was no longer relevant in order to preserve the database clean: 
 
 **Inserati aici toate instructiunile de DELETE pe care le-ati scris folosind filtrarile necesare astfel incat sa stergeti doar datele de care aveti nevoie**
+
+
+  <li>DQL (Data Query Language)</li>
+
 
 In order to simulate various scenarios that might happen in real life I created the following queries that would cover multiple potential real-life situations:
 
