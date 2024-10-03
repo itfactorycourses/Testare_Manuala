@@ -119,5 +119,7 @@ Functionalities Covered: Extensive testing of library books, item management, bo
 
 Issues Identified: No defects were discovered. Addressing eventual issues is crucial before considering a production release to ensure a stable and reliable API.
 
-Lessons Learned: Documentation Impact: Clear documentation on creating access tokens was valuable for establishing a robust testing environment. Collaboration Significance: Continuous collaboration with the development team is vital to align testing efforts with ongoing API changes, ensuring the testing process remains effective and relevant.**
+Lessons Learned: 
+
+Documentation Impact: Clear documentation on creating access tokens was valuable for establishing a robust testing environment. Collaboration Significance: Continuous collaboration with the development team is vital to align testing efforts with ongoing API changes, ensuring the testing process remains effective and relevant.**
 
