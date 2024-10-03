@@ -1,32 +1,27 @@
-<h1>Database Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+# Database Project for "Inserati aici numele aplicatiei pe care o testati"
 
 The scope of this project is to use all the SQL knowledge gained throught the Software Testing course and apply them in practice.
 
-Application under test: **Inserati aici numele aplicatiei pe care o testati**
+**Application under test:** Inserati aici numele aplicatiei pe care o testati
 
-Tools used: MySQL Workbench
+**Tools used:** MySQL Workbench
 
-Database description: **Inserati aici o scurta descriere a bazei de date care sa contina scopul ei, informatiile generale pe care le veti salva si orice alte informatii considerati ca sunt relevante pentru o descriere**
+**Database description:** Inserati aici o scurta descriere a bazei de date care sa contina scopul ei, informatiile generale pe care le veti salva si orice alte informatii considerati ca sunt relevante pentru o descriere
 
-<ol>
-<li>Database Schema </li>
-<br>
+## Database Schema 
+  
 You can find below the database schema that was generated through Reverse Engineer and which contains all the tables and the relationships between them.
 
 The tables are connected in the following way:
 
-<ul>
-  <li> **nume tabela 1**  is connected with **nume tabela 2** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-  <li> **nume tabela 3**  is connected with **nume tabela 4** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-  <li> **nume tabela 5**  is connected with **nume tabela 6** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-  ...........
-  <li> **nume tabela n**  is connected with **nume tabela n+1** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-</ul><br>
+- **nume tabela 1**  is connected with **nume tabela 2** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key
+- **nume tabela 3**  is connected with **nume tabela 4** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key
+- **nume tabela 5**  is connected with **nume tabela 6** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key
+- **nume tabela n**  is connected with **nume tabela n+1** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key
 
-<li>Database Queries</li><br>
+## Database Queries
 
-<ol type="a">
-  <li>DDL (Data Definition Language)</li>
+### DDL (Data Definition Language)
 
   The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
 
@@ -34,7 +29,7 @@ The tables are connected in the following way:
 
   After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below:
 
-  **Inserati aici toate instructiunile de ALTER pe care le-ati scris. Incercati sa includeti instructiuni cat mai variate cum ar fi:**
+**Inserati aici toate instructiunile de ALTER pe care le-ati scris. Incercati sa includeti instructiuni cat mai variate cum ar fi:**
  **- schimbare nume tabela**
  **- adaugare sau stergere coloana**
  **- redenumire coloana**
@@ -43,7 +38,7 @@ The tables are connected in the following way:
  **- adaugare cheie primara sau secundara (daca nu a fost deja adaugata la crearea tabelei)**
  
   
-  <li>DML (Data Manipulation Language)</li>
+### DML (Data Manipulation Language)
 
   In order to be able to use the database I populated the tables with various data necessary in order to perform queries and manipulate the data. 
   In the testing process, this necessary data is identified in the Test Design phase and created in the Test Implementation phase. 
@@ -56,12 +51,13 @@ The tables are connected in the following way:
 
   **Inserati aici toate instructiunile de UPDATE pe care le-ati scris folosind filtrarile necesare astfel incat sa actualizati doar datele de care aveti nevoie**
 
-
-  <li>DQL (Data Query Language)</li>
-
 After the testing process, I deleted the data that was no longer relevant in order to preserve the database clean: 
 
 **Inserati aici toate instructiunile de DELETE pe care le-ati scris folosind filtrarile necesare astfel incat sa stergeti doar datele de care aveti nevoie**
+
+
+### DQL (Data Query Language)
+
 
 In order to simulate various scenarios that might happen in real life I created the following queries that would cover multiple potential real-life situations:
 
@@ -81,10 +77,7 @@ In order to simulate various scenarios that might happen in real life I created 
 **- having**<br>
 **- OPTIONAL DAR RECOMANDAT: Subqueries - nu au fost in scopul cursului. Puteti sa consultati tutorialul [asta](https://www.techonthenet.com/mysql/subqueries.php) si daca nu intelegeti ceva contactati fie trainerul, fie coordonatorul de grupa**<br>
 
-</ol>
+## Conclusions
 
-<li>Conclusions</li>
+Inserati aici o concluzie cu privire la ceea ce ati lucrat, gen lucrurile pe care le-ati invatat, lessons learned, un rezumat asupra a ceea ce ati facut si orice alta informatie care vi se pare relevanta pentru o concluzie finala asupra a ceea ce ati lucrat
 
-**Inserati aici o concluzie cu privire la ceea ce ati lucrat, gen lucrurile pe care le-ati invatat, lessons learned, un rezumat asupra a ceea ce ati facut si orice alta informatie care vi se pare relevanta pentru o concluzie finala asupra a ceea ce ati lucrat**
-
-</ol>
