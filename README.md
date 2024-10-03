@@ -1,11 +1,15 @@
 API Testing Project for ** API- Postman Library **
 
 The scope of this project is to use all API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
+
 Application under test: API- Postman Library
+
 Tools used: Postman
+
 Collection link: Marius C- Postman Library API v2
 
 Tests performed
+
 HTTP methods supported by this API are GET, POST, PUT, PATCH, and DELETE. In this section, you can explore and perform tests on various types of operations supported by Postman Library API. Some examples include:
 GET Requests: Retrieve information about books, by genres, by ID, etc. POST Requests: Add new books, etc. PUT and PATCH Requests: Update existing books, checking books, etc. DELETE Requests: Remove books, etc.
 1.	**GET BOOKS**
@@ -77,9 +81,14 @@ Defects found
 No issues were identified while running the postman tests.
 
 Conclusions
+
 **Test Coverage: A comprehensive set of 15 API tests was created, covering diverse functionalities in the Postman Library API. Tests included various HTTP methods (GET, POST, PATCH, DELETE) for thorough coverage.
+
 Test Execution: Successful execution of the entire collection using Postman's runner. Detailed execution reports were generated, providing insights into each test case's performance and status.
+
 Functionalities Covered: Extensive testing of library books, item management, books adding and retrieval, and checking out books. A variety of scenarios, including positive, negative, and performance testing, were explored.
+
 Issues Identified: No defects were discovered. Addressing eventual issues is crucial before considering a production release to ensure a stable and reliable API.
+
 Lessons Learned: Documentation Impact: Clear documentation on creating access tokens was valuable for establishing a robust testing environment. Collaboration Significance: Continuous collaboration with the development team is vital to align testing efforts with ongoing API changes, ensuring the testing process remains effective and relevant.**
 
